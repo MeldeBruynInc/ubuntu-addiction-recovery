@@ -211,3 +211,7 @@ footer a { color: var(--gold); text-decoration: none; }
 footer {
     background-color: #6A1B9A !important; /* Forces a rich, vibrant grape purple */
 }
+/* --- Align Bookshop Buttons to Bottom --- */
+.card .btn {
+    margin-top: auto; /* This magic trick pushes the button to the very bottom of the card */
+}
