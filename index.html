@@ -3,23 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Shop Ubuntu Addiction Recovery books, workbooks, and restoration resources by Melanie Koen.">
-    <title>Bookshop - Ubuntu Addiction Recovery</title>
+    <meta name="description" content="Ubuntu Addiction Recovery: Practical tools, workbooks, and educational resources for addiction recovery and restoration by Melanie Koen.">
+    <title>Home - Ubuntu Addiction Recovery</title>
     <link rel="stylesheet" href="style.css">
+    
+    <!-- AI & Search Engine Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Ubuntu Addiction Recovery",
+      "url": "https://ubuntuaddictionrecovery.com",
+      "logo": "https://ubuntuaddictionrecovery.com/images/app_logo.jpg",
+      "founder": {
+        "@type": "Person",
+        "name": "Melanie Koen"
+      },
+      "description": "Practical recovery tools, workbooks, and educational resources for addiction recovery and restoration."
+    }
+    </script>
 </head>
 <body>
     <!-- Header & Navigation -->
     <header>
         <div class="container">
             <div class="logo">
-                <h1>Ubuntu Addiction Recovery</h1>
+                <img src="images/app_logo.jpg" alt="Ubuntu Addiction Recovery Logo">
             </div>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="app.html">The App</a></li>
-                    <li><a href="bookshop.html" class="active">Bookshop</a></li>
+                    <li><a href="bookshop.html">Bookshop</a></li>
                     <li><a href="youtube.html">YouTube</a></li>
                     <li><a href="podcast.html">Podcast</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -29,91 +45,51 @@
     </header>
 
     <!-- Page Hero -->
-    <section class="hero" style="padding: 3rem 0;">
+    <section class="hero">
         <div class="container">
-            <h2>Recovery Resources & Books</h2>
-            <p>Practical tools, workbooks, and educational resources written with compassion to support your journey toward healthier, more purposeful living.</p>
-        </div>
-    </section>
-
-    <!-- eBooks Section -->
-    <section class="books-section">
-        <div class="container">
-            <h2>eBooks</h2>
-            <p>Instant digital downloads for your Kindle or reading app.</p>
-            
-            <div class="card-grid">
-                <div class="card">
-                    <img src="images/relapsed.jpg" alt="I Relapsed, Now What? eBook Cover" class="book-cover">
-                    <h3>I Relapsed, Now What?</h3>
-                    <p>The First 24 Hours Recovery System. A compassionate, practical guide for the critical hours after a slip.</p>
-                    <a href="https://www.amazon.com/dp/B0HHJ8XCDQ" class="btn btn-primary" target="_blank">Buy on Amazon</a>
-                </div>
-                <div class="card">
-                    <img src="images/phase1.jpg" alt="Hurts, Habits & Hang-Ups Phase 1 eBook Cover" class="book-cover">
-                    <h3>Hurts, Habits & Hang-Ups: Phase 1</h3>
-                    <p>The 90-Day Restoration Journey. Begin exploring the patterns that hold you back and take the first steps toward change.</p>
-                    <a href="https://www.amazon.com/dp/B0HHRNLWXZ" class="btn btn-primary" target="_blank">Buy on Amazon</a>
-                </div>
-                <div class="card">
-                    <img src="images/phase2.jpg" alt="Hurts, Habits & Hang-Ups Phase 2 eBook Cover" class="book-cover">
-                    <h3>Hurts, Habits & Hang-Ups: Phase 2</h3>
-                    <p>Action, Boundaries & Rebuilding. Learn to set healthy boundaries, release resentment, and repair trust.</p>
-                    <a href="https://www.amazon.com/dp/B0HLLBLFL6" class="btn btn-primary" target="_blank">Buy on Amazon</a>
-                </div>
-                <div class="card">
-                    <img src="images/phase3.jpg" alt="Hurts, Habits & Hang-Ups Phase 3 eBook Cover" class="book-cover">
-                    <h3>Hurts, Habits & Hang-Ups: Phase 3</h3>
-                    <p>Integration, Purpose & Lifelong Restoration. Solidify your progress and build a foundation for lasting recovery.</p>
-                    <a href="https://www.amazon.com/dp/B0HLPQ9VQL" class="btn btn-primary" target="_blank">Buy on Amazon</a>
-                </div>
-                <div class="card">
-                    <img src="images/masterclass.jpg" alt="Hurts, Habits & Hang-Ups Masterclass eBook Cover" class="book-cover">
-                    <h3>Hurts, Habits & Hang-Ups: Masterclass</h3>
-                    <p>The comprehensive 90-Day Masterclass bringing all the principles together for deep, sustained transformation.</p>
-                    <a href="https://www.amazon.com/dp/B0HNFB2264" class="btn btn-primary" target="_blank">Buy on Amazon</a>
-                </div>
+            <h2>Recovery Begins with Hope.<br>Restoration Grows Through Connection.</h2>
+            <p>Practical tools, workbooks, and educational resources designed to support your journey toward a healthier, more purposeful life.</p>
+            <div style="margin-top: 2rem;">
+                <a href="bookshop.html" class="btn btn-primary">Explore Recovery Books</a>
+                <a href="app.html" class="btn btn-secondary">Discover the App</a>
             </div>
         </div>
     </section>
 
-    <!-- Paperbacks Section -->
-    <section class="books-section" style="background-color: var(--silver-grey);">
+    <!-- App Teaser Section -->
+    <section class="app-intro" style="background-color: var(--silver-grey);">
+        <div class="container" style="text-align: center; max-width: 800px;">
+            <h2>Your Recovery, In Your Pocket</h2>
+            <p>The Ubuntu Recovery App provides daily check-ins, anchoring exercises, and practical assessments to support your journey every single day.</p>
+            <span style="display: inline-block; background: var(--gold); color: var(--grape-purple); padding: 5px 15px; border-radius: 20px; font-weight: bold; font-size: 0.9rem; margin-bottom: 1.5rem;">Currently in Closed Testing</span>
+            <br>
+            <a href="app.html" class="btn btn-primary">Learn More & Join the Waitlist</a>
+        </div>
+    </section>
+
+    <!-- Books Teaser Section -->
+    <section>
         <div class="container">
-            <h2>Paperbacks & Workbooks</h2>
-            <p>Physical copies and interactive workbooks with space to write, reflect, and track your progress.</p>
+            <h2>Practical Tools for Your Journey</h2>
+            <p>Written with compassion by Melanie Koen, our resources meet you exactly where you are, from the critical first 24 hours after a slip to lifelong restoration.</p>
             
             <div class="card-grid">
                 <div class="card">
-                    <img src="images/paperback_relapsed.jpg" alt="I Relapsed, Now What? Paperback Cover" class="book-cover">
+                    <img src="images/relapsed.jpg" alt="I Relapsed, Now What? Cover" class="book-cover">
                     <h3>I Relapsed, Now What?</h3>
-                    <p>The First 24 Hours Recovery System (Paperback). Keep this vital survival guide within arm's reach.</p>
-                    <a href="https://www.amazon.com/dp/B0HK6WL58M" class="btn btn-primary" target="_blank">Buy on Amazon</a>
+                    <p>The First 24 Hours Recovery System. A compassionate, practical guide for the critical hours after a slip.</p>
+                    <a href="bookshop.html" class="btn btn-secondary">View in Bookshop</a>
                 </div>
                 <div class="card">
-                    <img src="images/paperback_phase1.jpg" alt="Hurts, Habits & Hang-Ups Phase 1 Paperback Cover" class="book-cover">
-                    <h3>Hurts, Habits & Hang-Ups: Phase 1</h3>
-                    <p>The 90-Day Restoration Journey (Paperback). A hands-on workbook with guided journaling prompts.</p>
-                    <a href="https://www.amazon.com/dp/B0HN7ZVPL6" class="btn btn-primary" target="_blank">Buy on Amazon</a>
+                    <img src="images/phase1.jpg" alt="Hurts, Habits & Hang-Ups Phase 1 Cover" class="book-cover">
+                    <h3>Hurts, Habits & Hang-Ups</h3>
+                    <p>The 90-Day Restoration Journey. Explore patterns, set boundaries, and build a foundation for lasting recovery.</p>
+                    <a href="bookshop.html" class="btn btn-secondary">View in Bookshop</a>
                 </div>
-                <div class="card">
-                    <img src="images/paperback_phase2.jpg" alt="Hurts, Habits & Hang-Ups Phase 2 Paperback Cover" class="book-cover">
-                    <h3>Hurts, Habits & Hang-Ups: Phase 2</h3>
-                    <p>Action, Boundaries & Rebuilding (Paperback). Write, practice, and verify real steps toward stability.</p>
-                    <a href="https://www.amazon.com/dp/B0HN1RSZWY" class="btn btn-primary" target="_blank">Buy on Amazon</a>
-                </div>
-                <div class="card">
-                    <img src="images/paperback_phase3.jpg" alt="Hurts, Habits & Hang-Ups Phase 3 Paperback Cover" class="book-cover">
-                    <h3>Hurts, Habits & Hang-Ups: Phase 3</h3>
-                    <p>Integration, Purpose & Lifelong Restoration (Paperback). Solidify your progress with structured daily activities.</p>
-                    <a href="https://www.amazon.com/dp/B0HMS4945J" class="btn btn-primary" target="_blank">Buy on Amazon</a>
-                </div>
-                <div class="card">
-                    <img src="images/paperback_masterclass.jpg" alt="Hurts, Habits & Hang-Ups Masterclass Paperback Cover" class="book-cover">
-                    <h3>Hurts, Habits & Hang-Ups: 90 Day Masterclass</h3>
-                    <p>The 90-Day Masterclass (Paperback). The complete guide bringing all restoration principles together for sustained transformation.</p>
-                    <a href="https://www.amazon.com/dp/B0HPD6P9N4" class="btn btn-primary" target="_blank">Buy on Amazon</a>
-                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="bookshop.html" class="btn btn-primary">View All Books & Workbooks</a>
             </div>
         </div>
     </section>
