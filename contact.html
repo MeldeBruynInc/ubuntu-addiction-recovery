@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Ubuntu Addiction Recovery for enquiries, app support, or collaboration.">
+    <title>Contact Us - Ubuntu Addiction Recovery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Ubuntu Addiction Recovery</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="app.html">The App</a></li>
+                    <li><a href="bookshop.html">Bookshop</a></li>
+                    <li><a href="youtube.html">YouTube</a></li>
+                    <li><a href="podcast.html">Podcast</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="hero" style="padding: 3rem 0;">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We are here to listen. Whether you have a question about our resources, need app support, or want to collaborate, please reach out.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section>
+        <div class="container">
+            <div class="contact-container">
+                
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p style="text-align: left; margin-bottom: 1.5rem;">The best way to reach us is through the form on this page. We aim to respond to all enquiries within 2-3 business days.</p>
+                    <p style="text-align: left;"><strong>Email:</strong><br>
+                    <a href="mailto:info@ubuntuaddictionrecovery.com" style="color: var(--teal);">info@ubuntuaddictionrecovery.com</a></p>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <!-- IMPORTANT: Replace 'YOUR_FORMSPREE_ID' below with your actual Formspree endpoint once set up -->
+                    <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+                        
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Jane Doe">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="jane@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Enquiry Category</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" disabled selected>Please select a category...</option>
+                                <option value="General Enquiry">General Enquiry</option>
+                                <option value="App Support">App Support</option>
+                                <option value="Books and Publishing">Books and Publishing</option>
+                                <option value="Partnerships and Collaboration">Partnerships and Collaboration</option>
+                                <option value="Media and Podcast">Media and Podcast</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="How can we support you?"></textarea>
+                        </div>
+
+                        <div class="checkbox-group">
+                            <input type="checkbox" id="consent" name="consent" required>
+                            <label for="consent">I consent to Ubuntu Addiction Recovery storing my name and email address solely to respond to this enquiry, in accordance with the <a href="privacy.html" style="color: var(--teal);">Privacy Policy</a>.</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="border: none; cursor: pointer; width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Crisis Disclaimer -->
+            <div class="crisis-disclaimer">
+                <h3>⚠️ Important: Not an Emergency Service</h3>
+                <p>Ubuntu Addiction Recovery provides educational information and tools intended to support personal reflection and recovery. Our resources and contact forms are <strong>not</strong> a substitute for professional medical care, mental-health treatment, counselling, or emergency services. If you are experiencing a medical emergency or are at immediate risk of harm, please contact the appropriate emergency service in your area immediately.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Ubuntu Addiction Recovery. A Mel de Bruyn Inc. initiative.</p>
+            <p>Contact: <a href="mailto:info@ubuntuaddictionrecovery.com">info@ubuntuaddictionrecovery.com</a></p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Use</a>
+                <a href="disclaimer.html">Recovery Disclaimer</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
