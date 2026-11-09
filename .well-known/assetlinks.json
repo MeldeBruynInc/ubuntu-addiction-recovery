@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ubuntu.addiction.recovery.app",
+      "sha256_cert_fingerprints": [
+        "D7:D6:33:54:29:CC:0F:8B:28:FA:FA:8D:23:48:4B:51:D7:41:48:33:49:4E:E7:C8:09:D8:41:EE:82:14:6B:AC"
+      ]
+    }
+  }
+]
